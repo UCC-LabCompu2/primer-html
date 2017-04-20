@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <title>Listas</title>
     <style>
-        #listaNor li{list-style-type: circle;}
-        .cuadrada li{list-style-type: square;}
+        .cuadrado li{list-style-type: square;}
+        #listaCirculo li{list-style-type: circle; color: red; font-family: Arial}
         .griegas li{list-style-type: lower-greek;}
-        #listaOrd li{list-style-type: lower-roman;}
+        .numRomanos li{list-style-type: lower-roman;}
 
-        /*Esto es un coment*/
-        a:hover{color: red;font-size: 1.2em; background-color: aquamarine}
-        a{text-decoration: none}
+        a:link{font-family: Algerian;}
+        a:hover{color: #16617A; font-size: 1.2em}
     </style>
 </head>
 <body>
@@ -35,7 +34,7 @@ Lista Ordenada 2:
 </ol>
 
 Lista Ordenada 3:
-<ol id="listaOrd">
+<ol class="numRomanos">
     <li>Primera posición</li>
     <li>Segunda</li>
     <li>Tercera</li>
@@ -49,14 +48,14 @@ Lista No Ordenada:
 </ul>
 
 Lista No Ordenada 2:
-<ul id="listaNor">
+<ul class="cuadrado">
     <li>Primera posición</li>
     <li>Segunda</li>
     <li>Tercera</li>
 </ul>
 
 Lista No Ordenada 3:
-<ul class="cuadrada">
+<ul id="listaCirculo">
     <li>Primera posición</li>
     <li>Segunda</li>
     <li>Tercera</li>
